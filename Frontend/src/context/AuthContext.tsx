@@ -1,4 +1,5 @@
-import { createContext, useContext, useState, ReactNode, useEffect } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
+import type { ReactNode } from "react";
 import api, { setAccessToken as setApiToken, registerRefreshHandler } from "../api/axios";
 
 interface User {
